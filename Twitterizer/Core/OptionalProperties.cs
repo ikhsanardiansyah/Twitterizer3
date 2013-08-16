@@ -47,7 +47,7 @@ namespace Twitterizer
         {
             // Set the default values for the properties
             this.UseSSL = false;
-            this.APIBaseAddress = "http://api.twitter.com/1/";
+            this.APIBaseAddress = "http://api.twitter.com/1.1/";
         }
 
         /// <include file='OptionalProperties.xml' path='OptionalProperties/Property[@name="UseSSL"]/*'/>
